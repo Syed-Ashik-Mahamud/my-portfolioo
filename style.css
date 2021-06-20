@@ -690,8 +690,8 @@ footer span a:hover{
         }  
         .wrap{
             position:relative;
-			max-width: 50%;
-            margin:0px auto 0;
+			max-width: 100%;
+            margin:50px ;
         }
         .bar{
             color:rgb(0, 0, 0);
@@ -704,7 +704,7 @@ footer span a:hover{
         .bar{
             display: inline-block;
             margin-bottom: 15px;
-            width: 140%;
+            width: 100%;
 			
         }
         .bar span{
