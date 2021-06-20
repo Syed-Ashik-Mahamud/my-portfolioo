@@ -762,7 +762,7 @@ footer span a:hover{
         }
         @keyframes count {
             from{
-                left:0%
+                left:0%;
             }
         }
         .bar:nth-child(1)abbr{
