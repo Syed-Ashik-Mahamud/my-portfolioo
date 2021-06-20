@@ -689,16 +689,16 @@ footer span a:hover{
         
         }  
         .wrap{
-            position:relative;
-			max-width: 100%;
-            margin:50px ;
+        
+	    max-width: 100%;
+            margin:50px auto 0; ;
         }
         .bar{
             color:rgb(0, 0, 0);
             letter-spacing: 1px;
             font-weight: 500;
             font-size: 15px;
-            position:leftwards ;
+            position:relative ;
         }
 
         .bar{
@@ -724,7 +724,7 @@ footer span a:hover{
             height: 50%;
             background: linear-gradient(to left,#ff0057,#ffeb3b);
             border: radius 60px;
-            animation: bar 10s ease;
+            animation: bar 4s ease;
         }
         @keyframes bar{
             from{
@@ -753,12 +753,12 @@ footer span a:hover{
             border-radius: 50px;
             text-align:center;
             line-height: 35px;
-            position:relative;
+            position:absolute;
             top: 8px;
             z-index: 1;
             background: linear-gradient(to left,#ff0057,#ffeb3b);
             box-shadow: 0 5px 20px, #ff0057, 0 5px 20px #ffeb3b;
-            animation: count 15s ease;
+            animation: count 4s ease;
         }
         @keyframes count {
             from{
