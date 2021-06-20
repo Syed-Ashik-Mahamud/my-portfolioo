@@ -689,40 +689,42 @@ footer span a:hover{
         
         }  
         .wrap{
-            max-width: 100%;
-            margin:100px auto 0;
+            position:relative;
+			max-width: 50%;
+            margin:0px auto 0;
         }
         .bar{
             color:rgb(0, 0, 0);
             letter-spacing: 1px;
             font-weight: 500;
-            font-size: 16px;
-            position:right ;
+            font-size: 15px;
+            position:leftwards ;
         }
 
         .bar{
             display: inline-block;
             margin-bottom: 15px;
-            width: 100%;
+            width: 140%;
+			
         }
         .bar span{
             position: relative;
             display: inline-block;
-            width: 150%;
-            height: 25px;
+            width: 100%;
+            height: 15px;
             background: #000;
             border-radius: 50px;
         }
         .bar span::before{
             position:absolute;
             content:'';
-            top: 6px;
+            top: 3px;
             left: 5px;
             width: 80%;
             height: 50%;
             background: linear-gradient(to left,#ff0057,#ffeb3b);
-            border: radius 50px;
-            animation: bar 4s ease;
+            border: radius 60px;
+            animation: bar 10s ease;
         }
         @keyframes bar{
             from{
@@ -730,7 +732,7 @@ footer span a:hover{
             }
         }
         .bar:nth-child(1) span::before{
-            width: 60%;
+            width: 50%;
         }
 
         .bar:nth-child(2) span::before{
@@ -756,7 +758,7 @@ footer span a:hover{
             z-index: 1;
             background: linear-gradient(to left,#ff0057,#ffeb3b);
             box-shadow: 0 5px 20px, #ff0057, 0 5px 20px #ffeb3b;
-            animation: count 3s ease;
+            animation: count 15s ease;
         }
         @keyframes count {
             from{
