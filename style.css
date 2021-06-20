@@ -724,7 +724,7 @@ footer span a:hover{
             height: 50%;
             background: linear-gradient(to left,#ff0057,#ffeb3b);
             border: radius 60px;
-            animation: bar 4s ease;
+            animation: bar 10s ease;
         }
         @keyframes bar{
             from{
@@ -758,7 +758,7 @@ footer span a:hover{
             z-index: 1;
             background: linear-gradient(to left,#ff0057,#ffeb3b);
             box-shadow: 0 5px 20px, #ff0057, 0 5px 20px #ffeb3b;
-            animation: count 4s ease;
+            animation: count 10s ease;
         }
         @keyframes count {
             from{
